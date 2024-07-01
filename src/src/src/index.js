@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import ScienceFundingCostVisualizer from './ScienceFundingCostVisualizer';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <ScienceFundingCostVisualizer />
   </React.StrictMode>,
   document.getElementById('root')
 );
